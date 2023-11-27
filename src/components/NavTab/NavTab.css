@@ -1,0 +1,23 @@
+.banner__nav {
+  display: flex;
+  flex-direction: row;
+  margin: 151px auto 30px;
+  gap: 10px;
+}
+
+.banner__nav-item {
+  border-radius: 10px;
+  background: #303030;
+  width: 96px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 133%;
+  text-align: center;
+}

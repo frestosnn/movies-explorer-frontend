@@ -1,5 +1,15 @@
+import AboutProject from '../AboutProject/AboutProject';
+import Promo from '../Promo/Promo';
+import Techs from '../Techs/Techs';
+
 function Main() {
-  return <div>Заглушка</div>;
+  return (
+    <>
+      <Promo />
+      <AboutProject />
+      <Techs />
+    </>
+  );
 }
 
 export default Main;
