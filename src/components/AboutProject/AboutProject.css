@@ -1,11 +1,19 @@
-.description {
+.project {
   background: #202020;
   min-height: 608px;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
-.description__header {
+.title__wrap {
+  margin: 100px auto 0;
+  display: flex;
+  width: 1140px;
+  border-bottom: 1px solid #dadada;
+}
+
+.title__header {
   color: #fff;
   font-family: Inter;
   font-size: 22px;
@@ -13,18 +21,24 @@
   font-weight: 400;
   line-height: normal;
   letter-spacing: -0.88px;
+  margin: 0 0 23px 0;
 }
 
-.description__content {
+.project__content {
   display: flex;
+  width: 1140px;
+  margin: 70px 0 110px 0;
+  padding: 0;
 }
 
-.description__item {
+.project__item {
   display: flex;
   flex-direction: column;
+  gap: 26px;
 }
 
-.description__title {
+.project__title {
+  margin: 0;
   color: #fff;
   font-family: Inter;
   font-size: 20px;
@@ -34,11 +48,78 @@
   letter-spacing: -0.8px;
 }
 
-.description__text {
+.project__text {
+  margin: 0;
   color: #fff;
   font-family: Inter;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 20px; /* 142.857% */
+}
+
+.project__time {
+  margin: 0;
+  width: 1140px;
+  display: flex;
+}
+
+.project__back {
+  width: 228px;
+  height: 36px;
+  background: #3ddc84;
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.project__front {
+  background: #303030;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 912px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.project__span {
+  width: 1140px;
+  margin: 14px auto 110px;
+  color: #8b8b8b;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 17px; /* 121.429% */
+  display: flex;
+}
+
+.project__back-span {
+  width: 228px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project__front-span {
+  width: 912px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
